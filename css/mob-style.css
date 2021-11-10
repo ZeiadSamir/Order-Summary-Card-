@@ -1,0 +1,78 @@
+@media only screen and (max-width: 600px){
+    #container{
+      width: 375px;
+    }
+    .first-pattern{
+    display: none;
+  }
+  .second-pattern{
+    display: none;
+  }
+  #main-card{
+    /* display: none; */
+    width: 300px;
+    background: white;
+    margin-top: -600px;
+    margin-left: 37px;
+
+    /* position: absolute; */
+  }
+  #main-card img{
+    width: 300px;
+  }
+  .card-content{
+    width: 205px;
+  }
+  .card-content h2{
+    font-size: 14px;
+  }
+  .card-content p{
+    font-size: 12px;
+  }
+  .price-plan{
+    width: 250px;
+  }
+  .column-one {
+    padding: 5%;
+  }
+  .column-two{
+    margin-top: 5px;
+  }
+  .column-two h4 {
+  font-weight: 900;
+  font-size: 12px;
+  }
+  .column-two p{
+    font-size: 12px;
+    margin-top: -15px;
+  }
+  .column-three {
+    flex: 20%;
+  }
+  .column-three a{
+    font-size: 12px;
+  }
+  .buttons{
+    width: 250px;
+    margin-top: 20px;
+
+  }
+  .buttons .btn1{
+    width: 250px;
+    font-size: 12px;
+  }
+  .buttons .btn2{
+    width: 250px;
+    margin-top: 8px;
+    font-size: 12px;
+  }
+
+
+  .first-pattern-mob{
+    display: block;
+    margin-bottom: -80px;
+  }
+  .second-pattern-mob{
+    display: block;
+  }
+  }
